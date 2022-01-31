@@ -86,50 +86,47 @@ h2{
       background-image: none;
     }
     #tituloPagina{
-        margin-left: 5%;
+        margin-left: -15%;
         font-family: 'Bebas Neue';
         color: rgb(250, 204, 19);
         font-size: 30px;
-    }
-    #data{
-        display: inline-block;
-        font-family: 'Bebas Neue';
-        background-color:rgb(208, 202, 243);
-        border-radius: 25px;
-        margin-left: 10%;
-        margin-right: 10%;
     }
     h2{
         font-family: 'Bebas Neue';
         color: cornsilk;
         text-align: center;
         font-size: 25px;
+        margin-left: -15%;
+    }
+    #data{
+        display: inline-block;
+        font-family: 'Bebas Neue';
+        background-color:rgb(208, 202, 243);
+        border-radius: 25px;
+        margin-left: 12%;
     }
     #nomeFoto{
-        margin-left: 17%;
-        margin-right: 10%;
+        margin-left: 12%;
         font-size: 25px;
         color: rgb(231, 12, 12);
     }
     #image{
      display: inline-block;
-        width: 300px;
-        height: 300px;
-        margin-left: 15%;
-        margin-right: 10%;
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
     }
     #description{
         color: whitesmoke;
         font-family: 'Bebas Neue';
         text-decoration: none;
         text-align: justify;
-        margin-left: 15%;
-        margin-right: 10%;
-        width: 300px;
-        height: 500px;
+        margin-left: 10%;
+        width: 250px;
+        height: 550px;
     }
     .rodape{
-        margin: 0%;
+        margin-left: 0%;
         padding: 0%;
         text-align: center;
         background: rgb(254, 255, 255);
