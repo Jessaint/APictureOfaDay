@@ -76,7 +76,7 @@ h2{
     display:inline-block;
 }
 
-@media screen and (max-width: 375px) and (max-height: 562px) {
+@media screen and (max-width: 425px) and (max-height: 562px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -89,14 +89,15 @@ h2{
         margin-left: 5%;
         font-family: 'Bebas Neue';
         color: rgb(250, 204, 19);
-        font-size: 35px;
+        font-size: 30px;
     }
     #data{
         display: inline-block;
         font-family: 'Bebas Neue';
         background-color:rgb(208, 202, 243);
         border-radius: 25px;
-        margin-left: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     h2{
         font-family: 'Bebas Neue';
@@ -105,22 +106,25 @@ h2{
         font-size: 25px;
     }
     #nomeFoto{
-        margin-left: 12%;
-        font-size: 30px;
+        margin-left: 17%;
+        margin-right: 10%;
+        font-size: 25px;
         color: rgb(231, 12, 12);
     }
     #image{
      display: inline-block;
         width: 300px;
         height: 300px;
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-right: 10%;
     }
     #description{
         color: whitesmoke;
         font-family: 'Bebas Neue';
         text-decoration: none;
         text-align: justify;
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-right: 10%;
         width: 300px;
         height: 500px;
     }
