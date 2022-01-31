@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-attachment: fixed;
+}
+#data{
+    font-family: 'Bebas Neue';
+    background-color:rgb(208, 202, 243);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 42%;
+}
+#btn{
+    font-family: 'Bebas Neue';
+    border-radius: 25px;
+    width: 70px;
+    height: 25px;
+}
+#tituloPagina{
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    margin-top: 0;
+    color: cornsilk;
+    text-align: center;
+    
+}
+h2{
+    font-size: 35px;
+    font-family: 'Bebas Neue';
+    margin-top: 0;
+    color: cornsilk;
+    text-align: center;
+}
+#searchTerm{
+   margin-left: 40%;
+   background-color:rgb(209, 93, 238);
+}
+#nomeFoto{
+    font-family: 'Bebas Neue';
+    margin-left: 37%;
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(231, 12, 12);
+}
+#image{
+    margin-left: 28%;
+    display: flex;
+    width: 590px;
+    height: 500px;
+}
+#description{
+    color: whitesmoke;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    text-align: justify;
+    margin-left: 15%;
+    width: 900px;
+    height: 150px;
+}
+.rodape{
+    color: rgba(10, 10, 10, 0.952);
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: rgb(254, 255, 255);
+}
+.imgrodape{
+    margin-left: 35%;
+    max-width: 3%;
+    display:inline-block;
+}
+
+@media screen and (max-width: 375px) and (max-height: 562px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+      background-color: black;
+      background-image: none;
+    }
+    #tituloPagina{
+        margin-left: 5%;
+        font-family: 'Bebas Neue';
+        color: rgb(250, 204, 19);
+        font-size: 35px;
+    }
+    #data{
+        display: inline-block;
+        font-family: 'Bebas Neue';
+        background-color:rgb(208, 202, 243);
+        border-radius: 25px;
+        margin-left: 20%;
+    }
+    h2{
+        font-family: 'Bebas Neue';
+        color: cornsilk;
+        text-align: center;
+        font-size: 25px;
+    }
+    #nomeFoto{
+        margin-left: 12%;
+        font-size: 30px;
+        color: rgb(231, 12, 12);
+    }
+    #image{
+     display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin-left: 10%;
+    }
+    #description{
+        color: whitesmoke;
+        font-family: 'Bebas Neue';
+        text-decoration: none;
+        text-align: justify;
+        margin-left: 10%;
+        width: 300px;
+        height: 500px;
+    }
+    .rodape{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        background: rgb(254, 255, 255);
+        color: rgba(10, 10, 10, 0.952);
+        font-family: 'Bebas Neue';
+        text-decoration: none;
+        display: inline-block;
+    }
+    .imgrodape{
+        margin-left: 5%;
+        max-width: 5%;
+        display:inline-block;
+    }
+}

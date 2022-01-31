@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="stars.png">
+        <link rel="stylesheet" href="apod.css">
+        <title>A Picture of a Day</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body background="background.jpg">
+        <header>
+            <h1 id="tituloPagina">Astronomy Picture of the Day</h1>
+        </header>
+
+        <main>
+            <div class="dataEBotao">
+                <label for="date">
+                    <h2>Choose a date!</h2>
+                </label>
+            </br>
+                <input id="data" type="date" required class="calendary">
+                <input id="btn" type="submit" onclick="clickNasa()" value="Pesquisar">
+            </div>
+            </br>
+            </br>
+            <div class="conteudoNasa">
+                <h3 id="nomeFoto"></h3>
+                <img id="image">
+                </br>
+                <p id="description"></p>
+            </div>
+
+            <footer class="rodape">
+                Resília Educação - Todos os direitos reservados.
+                <div class="links">
+                    <a href="https://github.com/Jessaint"><img class="imgrodape" src="pnggithub.png"></a>
+                    <a href="https://www.linkedin.com/in/jessicasjesus/"><img class="imgrodape" src="pnglinkedin.png"></a>
+                </div>
+            </footer>
+        </main>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="apod.js" defer></script>
+    </body>
+
+</html>
